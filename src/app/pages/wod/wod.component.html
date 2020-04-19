@@ -1,0 +1,17 @@
+<ng-container *ngIf="wod">
+  <mat-toolbar color="accent" class="footer-start">
+    <span>{{wod.name}}</span>
+  </mat-toolbar>
+  <div class="content-wod">
+    <mat-list *ngFor="let round of wod.rounds; let index = index;">
+      <div class="text-center">Round {{ index }}</div>
+      <ng-container *ngFor="let mouvement of round.mouvements; let last = last;">
+        <mat-list-item>{{mouvement.number}} - {{mouvement.name}}</mat-list-item>
+        <mat-divider *ngIf="last"></mat-divider>
+      </ng-container>
+    </mat-list>
+  </div>
+  <mat-toolbar color="primary" class="footer-start">
+    <span [routerLink]="'/execute-wod/'+wodId">Commencer</span>
+  </mat-toolbar>
+</ng-container>

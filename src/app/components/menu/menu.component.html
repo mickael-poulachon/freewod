@@ -1,0 +1,14 @@
+<button mat-button [matMenuTriggerFor]="aboveMenu">Workout</button>
+<mat-menu #aboveMenu="matMenu" yPosition="above">
+  <button mat-menu-item
+          [routerLink]="['/wod/','aphrodite']"
+          routerLinkActive="active">Aphrodite</button>
+  <button mat-menu-item>Venus</button>
+</mat-menu>
+
+<button mat-button [matMenuTriggerFor]="belowMenu">Mon compte</button>
+<mat-menu #belowMenu="matMenu" yPosition="below">
+  <button mat-menu-item>Item 1</button>
+  <button mat-menu-item>Item 2</button>
+</mat-menu>
+

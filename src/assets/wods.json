@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Aphrodite",
+    "id": "aphrodite",
+    "rounds": [
+      {
+        "mouvements": [
+          {
+            "name": "burpees",
+            "number": 50
+          },
+          {
+            "name": "squats",
+            "number": 50
+          },
+          {
+            "name": "situps",
+            "number": 50
+          }
+        ]
+      },
+      {
+        "mouvements": [
+          {
+            "name": "burpees",
+            "number": 40
+          },
+          {
+            "name": "squats",
+            "number": 40
+          },
+          {
+            "name": "situps",
+            "number": 40
+          }
+        ]
+      },
+      {
+        "mouvements": [
+          {
+            "name": "burpees",
+            "number": 30
+          },
+          {
+            "name": "squats",
+            "number": 30
+          },
+          {
+            "name": "situps",
+            "number": 30
+          }
+        ]
+      },
+      {
+        "mouvements": [
+          {
+            "name": "burpees",
+            "number": 20
+          },
+          {
+            "name": "squats",
+            "number": 20
+          },
+          {
+            "name": "situps",
+            "number": 20
+          }
+        ]
+      },
+      {
+        "mouvements": [
+          {
+            "name": "burpees",
+            "number": 10
+          },
+          {
+            "name": "squats",
+            "number": 10
+          },
+          {
+            "name": "situps",
+            "number": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dione",
+    "id": "dione",
+    "rounds": [
+      {
+        "mouvements": [
+          {
+            "name": "jumping jack",
+            "number": 75
+          },
+          {
+            "name": "burpees",
+            "number": 25
+          },
+          {
+            "name": "leg leaver",
+            "number": 50
+          },
+          {
+            "name": "jumping jack",
+            "number": 75
+          },
+          {
+            "name": "situps",
+            "number": 50
+          },
+          {
+            "name": "burpees",
+            "number": 25
+          }
+        ]
+      },
+      {
+        "mouvements": [
+          {
+            "name": "jumping jack",
+            "number": 75
+          },
+          {
+            "name": "burpees",
+            "number": 25
+          },
+          {
+            "name": "leg leaver",
+            "number": 50
+          },
+          {
+            "name": "jumping jack",
+            "number": 75
+          },
+          {
+            "name": "situps",
+            "number": 50
+          },
+          {
+            "name": "burpees",
+            "number": 25
+          }
+        ]
+      },
+      {
+        "mouvements": [
+          {
+            "name": "jumping jack",
+            "number": 75
+          },
+          {
+            "name": "burpees",
+            "number": 25
+          },
+          {
+            "name": "leg leaver",
+            "number": 50
+          },
+          {
+            "name": "jumping jack",
+            "number": 75
+          },
+          {
+            "name": "situps",
+            "number": 50
+          },
+          {
+            "name": "burpees",
+            "number": 25
+          }
+        ]
+      }
+    ]
+  }
+]

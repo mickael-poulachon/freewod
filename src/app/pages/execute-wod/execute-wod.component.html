@@ -1,0 +1,19 @@
+<ng-container *ngIf="wod">
+  <div>
+    <mat-toolbar color="accent" class="footer-start">
+      <span>{{wod.name}}</span>
+    </mat-toolbar>
+    <div class="content-wod">
+      <app-timer></app-timer>
+      <mat-card class="card-info-wod">
+        <mat-card-header>
+          <mat-card-title>{{currentExercice.number}} {{currentExercice.name}}</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="https://www.dravelnutrition.fr/img/cms/BLOG/BURPEE.jpg" alt="Photo of a Shiba Inu">
+      </mat-card>
+    </div>
+    <mat-toolbar color="primary" class="footer-start" (click)="goNextExercice()">
+      {{nextExercice.number}} {{nextExercice.name}}
+    </mat-toolbar>
+  </div>
+</ng-container>
